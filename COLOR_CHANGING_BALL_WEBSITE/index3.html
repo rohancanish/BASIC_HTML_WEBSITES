@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BALL CHANING COLORs</title>
+    <style>
+
+        body{
+            position: relative;
+            height: 100px;
+            width: 100px;
+            background-color: black;
+        }
+
+        .smiley1{
+            position: relative;
+            height: 120px;
+            width: 130px;
+            background-color: brown;
+            border-radius: 50%;
+            animation: smiley1move 5s infinite;
+        }
+
+        @keyframes smiley1move{
+            0% {
+                transform: translateX(0);
+                background-color: red;
+            }
+            50% {
+                transform: translateX(300px);
+                background-color: blue;
+            }
+            100% {
+                transform: translateX(0);
+                background-color: red;}
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div class="smiley1" ></div>
+</body>
+</html>
