@@ -1,5 +1,3 @@
-### README.md
-
 # HTML and CSS Projects
 
 This repository contains various projects showcasing the use of HTML and CSS. Each project is designed to demonstrate different techniques and styles in web development.
